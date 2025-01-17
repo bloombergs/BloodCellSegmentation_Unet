@@ -23,6 +23,7 @@ After training, the model can be used for inference on unseen images. The image 
 
 # Evaluation Metrics
 To evaluate(evaluation_metrics.py) i mainly use F8 Score as a metrics.However i also provide Normalized Hausdorff,IOU,and Dice as a comparison and proof that F8 Score is the better,genelized, and unbiased metrics to evaluate Area and Shape for Semantic Segmentation task.
+
 F8 Score : https://www.researchgate.net/publication/388027322_F8_Score_An_attempt_to_strike_a_balance_between_Area_and_Shape
 
 # Optional
