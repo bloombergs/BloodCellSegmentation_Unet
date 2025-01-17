@@ -1,5 +1,5 @@
 # BloodCellSegmentation_Unet
-I implements a U-Net architecture for the segmentation of blood cells from microscopy images using a dataset of blood cell images with their corresponding masks.The model is trained using a dataset of cell images and their binary segmentation masks, where the goal is to create new segmentation mask from unseen image.
+I implemented a U-Net architecture for the segmentation of blood cells from microscopy images using a dataset of blood cell images with their corresponding masks.The model is trained using a dataset of cell images and their binary segmentation masks, where the goal is to create new segmentation mask from unseen image.
 
 Dataset = Blood Cell Segmentation Dataset (https://www.kaggle.com/datasets/jeetblahiri/bccd-dataset-with-mask)
 
