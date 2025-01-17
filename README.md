@@ -21,6 +21,10 @@ The model is trained for 2 epochs using AdamW optimizer and BCEWithLogitsLoss as
 After training, the model can be used for inference on unseen images. The image is passed through the trained model, and the resulting segmentation mask is processed and visualized using matplotlib.
 ![Screenshot 2024-12-14 193641](https://github.com/user-attachments/assets/70e38692-f719-4767-80a3-568340a3f096)
 
+# Evaluation Metrics
+To evaluate(evaluation_metrics.py) we mainly use F8 Score as a metrics.However we also provide Normalized Hausdorff,IOU,and Dice as a comparison and proof that F8 Score is the better,genelized, and unbiased metrics to evaluate Area and Shape for Semantic Segmentation task.
+F8 Score : https://www.researchgate.net/publication/388027322_F8_Score_An_attempt_to_strike_a_balance_between_Area_and_Shape
+
 # Optional
 After i have the Generated mask i decided that it'll be cool to use the mask to make the original image have a Red(Blood like) color.
 in bloodred.py we can paste the image and mask to generate the Red Textured Image.
